@@ -1,4 +1,4 @@
-import React from 'react'
+import Footer from './Footer'
 import Header from './Header'
 import Navbar from './Navbar'
 import { Outlet } from 'react-router-dom'
@@ -16,6 +16,7 @@ const Master = () => {
         </section>
             {/* Main Content */}
             <Outlet />
+       <Footer />
     </div>
   )
 }
